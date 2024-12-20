@@ -42,13 +42,13 @@ public class MethodePost {
                     .add("id", ticket.getId())
                     .add("titre", ticket.getTitre()) // Utilise getTitre()
                     .add("description", ticket.getDescription())
-                    .add("date_creation", ticket.getDateCreation())
-                    .add("date_maj", ticket.getDateMaj())
+                    .add("dateCreation", ticket.getDateCreation())
+                    .add("dateMaj", ticket.getDateMaj())
                     .add("impact", ticket.getImpact())
                     .add("etat", ticket.getEtat())
                     .add("createur", ticket.getCreateur())
                     .add("poste", ticket.getPoste())
-                    .add("type_de_demande", ticket.getTypeDeDemande())
+                    .add("typeDeDemande", ticket.getTypeDeDemande())
                     .build();
 
             // Ajouter le nouveau ticket à la liste existante

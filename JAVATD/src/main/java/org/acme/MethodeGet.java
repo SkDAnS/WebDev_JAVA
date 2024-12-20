@@ -24,13 +24,13 @@ public class MethodeGet {
                 ticket.setId(ticketJson.getString("id"));
                 ticket.setTitre(ticketJson.getString("titre"));
                 ticket.setDescription(ticketJson.getString("description"));
-                ticket.setDateCreation(ticketJson.getString("date_creation"));
-                ticket.setDateMaj(ticketJson.getString("date_maj"));
+                ticket.setDateCreation(ticketJson.getString("dateCreation"));
+                ticket.setDateMaj(ticketJson.getString("dateMaj"));
                 ticket.setImpact(ticketJson.getString("impact"));
                 ticket.setEtat(ticketJson.getString("etat"));
                 ticket.setCreateur(ticketJson.getString("createur"));
                 ticket.setPoste(ticketJson.getString("poste"));
-                ticket.setTypeDeDemande(ticketJson.getString("type_de_demande"));
+                ticket.setTypeDeDemande(ticketJson.getString("typeDeDemande"));
                 tickets.add(ticket);
             }
 
@@ -54,13 +54,13 @@ public class MethodeGet {
                     ticket.setId(ticketJson.getString("id"));
                     ticket.setTitre(ticketJson.getString("titre"));
                     ticket.setDescription(ticketJson.getString("description"));
-                    ticket.setDateCreation(ticketJson.getString("date_creation"));
-                    ticket.setDateMaj(ticketJson.getString("date_maj"));
+                    ticket.setDateCreation(ticketJson.getString("dateCreation"));
+                    ticket.setDateMaj(ticketJson.getString("dateMaj"));
                     ticket.setImpact(ticketJson.getString("impact"));
                     ticket.setEtat(ticketJson.getString("etat"));
                     ticket.setCreateur(ticketJson.getString("createur"));
                     ticket.setPoste(ticketJson.getString("poste"));
-                    ticket.setTypeDeDemande(ticketJson.getString("type_de_demande"));
+                    ticket.setTypeDeDemande(ticketJson.getString("typeDeDemande"));
                     return ticket;
                 }
             }
